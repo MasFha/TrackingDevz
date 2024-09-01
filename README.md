@@ -21,10 +21,6 @@ Install Modul Git
 ```
 pkg install git -y
 ```
-Install Requirements
-```
-pip3 install -r requirements.txt
-```
 Install Pip
 ```
 pkg install python-pip -y
@@ -32,6 +28,10 @@ pkg install python-pip -y
 Clone URL Git
 ```
 git clone https://github.com/MasFha/TrackingDevz.git
+```
+Install Requirements
+```
+pip3 install -r requirements.txt
 ```
 Ubah Direktorinya
 ```
