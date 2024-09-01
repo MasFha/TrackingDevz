@@ -108,11 +108,11 @@ def phoneGW():
     print(f" {Wh}Country code         :{Gr} {parsed_number.country_code}")
     print(f" {Wh}Local number         :{Gr} {parsed_number.national_number}")
     if number_type == phonenumbers.PhoneNumberType.MOBILE:
-        print(f" {Wh}Type                 :{Gr} This is a mobile number")
+        print(f" {Wh}Type             :{Gr} This is a mobile number")
     elif number_type == phonenumbers.PhoneNumberType.FIXED_LINE:
-        print(f" {Wh}Type                 :{Gr} This is a fixed-line number")
+        print(f" {Wh}Type             :{Gr} This is a fixed-line number")
     else:
-        print(f" {Wh}Type                 :{Gr} This is another type of number")
+        print(f" {Wh}Type             :{Gr} This is another type of number")
 
 @is_option
 def TrackLu():
