@@ -40,28 +40,28 @@ def IP_Track():
     req_api = requests.get(f"http://ipwho.is/{ip}")  # API IPWHOIS.IS
     ip_data = json.loads(req_api.text)
     time.sleep(2)
-    print(f'{Wh}\n Hacked By NaomyValen')
-    print(f"{Wh}\n IP Target       :{Gr}", ip)
+    print(f'{Wh}\n Powered by MasFha')
+    print(f"{Wh}\n IP Target     :{Gr}", ip)
     print(f"{Wh} Tipe IP         :{Gr}", ip_data["type"])
-    print(f"{Wh} Negara         :{Gr}", ip_data["country"])
-    print(f"{Wh} Kode negara    :{Gr}", ip_data["country_code"])
+    print(f"{Wh} Negara          :{Gr}", ip_data["country"])
+    print(f"{Wh} Kode negara     :{Gr}", ip_data["country_code"])
     print(f"{Wh} Kota            :{Gr}", ip_data["city"])
-    print(f"{Wh} Dari Benua       :{Gr}", ip_data["continent"])
-    print(f"{Wh} Kode Benua  :{Gr}", ip_data["continent_code"])
-    print(f"{Wh} Wilayah          :{Gr}", ip_data["region"])
-    print(f"{Wh} Kode Wilayah     :{Gr}", ip_data["region_code"])
+    print(f"{Wh} Dari Benua      :{Gr}", ip_data["continent"])
+    print(f"{Wh} Kode Benua      :{Gr}", ip_data["continent_code"])
+    print(f"{Wh} Wilayah         :{Gr}", ip_data["region"])
+    print(f"{Wh} Kode Wilayah    :{Gr}", ip_data["region_code"])
     print(f"{Wh} Latitude        :{Gr}", ip_data["latitude"])
     print(f"{Wh} Longitude       :{Gr}", ip_data["longitude"])
     lat = int(ip_data['latitude'])
     lon = int(ip_data['longitude'])
-    print(f"{Wh} Lokasi Saat Ini            :{Gr}", f"https://www.google.com/maps/@{lat},{lon},8z")
+    print(f"{Wh} Lokasi Saat Ini :{Gr}", f"https://www.google.com/maps/@{lat},{lon},8z")
     print(f"{Wh} EU              :{Wh}", ip_data["is_eu"])
     print(f"{Wh} Postal          :{Wh}", ip_data["postal"])
     print(f"{Wh} Calling Code    :{Wh}", ip_data["calling_code"])
     print(f"{Wh} Capital         :{Wh}", ip_data["capital"])
     print(f"{Wh} Borders         :{Wh}", ip_data["borders"])
     print(f"{Wh} Country Flag    :{Wh}", ip_data["flag"]["emoji"])
-    print(f"{Wh} Jaringan             :{Wh}", ip_data["connection"]["asn"])
+    print(f"{Wh} Jaringan        :{Wh}", ip_data["connection"]["asn"])
     print(f"{Wh} ORG             :{Wh}", ip_data["connection"]["org"])
     print(f"{Wh} ISP             :{Wh}", ip_data["connection"]["isp"])
     print(f"{Wh} Domain          :{Wh}", ip_data["connection"]["domain"])
@@ -76,7 +76,7 @@ def IP_Track():
 @is_option
 def phoneGW():
     User_phone = input(
-        f"\n {Wh}Masukan Nomor Target Anda! {Gr}Contoh [+6281xxxxxxxxx] {Wh}: {Gr}")  # INPUT NUMBER PHONE
+        f"\n {Wh}Masukan Nomor Target Anda! {Gr}Contoh +6281xxxxxxxxx {Wh}: {Gr}")  # INPUT NUMBER PHONE
     default_region = "ID"  # DEFAULT NEGARA INDONESIA
 
     parsed_number = phonenumbers.parse(User_phone, default_region)  # VARIABLE PHONENUMBERS
@@ -93,18 +93,18 @@ def phoneGW():
     timezoneF = ', '.join(timezone1)
 
     print(f"\n {Wh}========== {Gr}TAMPILKAN INFORMASI NOMOR TELEPON {Wh}==========")
-    print(f'{Wh}\n Powered by MDevz')
+    print(f'{Wh}\n Powered by MasFha')
     print(f"\n {Wh}Negara             :{Gr} {location}")
     print(f" {Wh}Kode Negara          :{Gr} {region_code}")
     print(f" {Wh}Timezone             :{Gr} {timezoneF}")
-    print(f" {Wh}Kartu Phone            :{Gr} {jenis_provider}")
+    print(f" {Wh}Kartu Phone          :{Gr} {jenis_provider}")
     print(f" {Wh}Valid number         :{Gr} {is_valid_number}")
     print(f" {Wh}Possible number      :{Gr} {is_possible_number}")
     print(f" {Wh}International format :{Gr} {formatted_number}")
     print(f" {Wh}Mobile format        :{Gr} {formatted_number_for_mobile}")
     print(f" {Wh}Original number      :{Gr} {parsed_number.national_number}")
     print(
-        f" {Wh}E.164 format         :{Gr} {phonenumbers.format_number(parsed_number, phonenumbers.PhoneNumberFormat.E164)}")
+        f" {Wh}E.164 format           :{Gr} {phonenumbers.format_number(parsed_number, phonenumbers.PhoneNumberFormat.E164)}")
     print(f" {Wh}Country code         :{Gr} {parsed_number.country_code}")
     print(f" {Wh}Local number         :{Gr} {parsed_number.national_number}")
     if number_type == phonenumbers.PhoneNumberType.MOBILE:
@@ -281,7 +281,7 @@ def run_banner():
          .-.
        .'   `.          {Wh}--------------------------------
        :g g   :         {Wh}| {Gr}TrackingDevz {Wh}|
-       : o    `.        {Wh}|       {Gr}Powered by Masfha      {Wh}|
+       : o    `.        {Wh}|       {Gr}Powered by MasFha      {Wh}|
       :         ``.     {Wh}--------------------------------
      :             `.
     :  :         .   `.
