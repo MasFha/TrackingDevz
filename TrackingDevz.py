@@ -266,7 +266,7 @@ def option():
     |_|_|  \__,_|\___|_|\_\_|_| |_|\__, |_____/ \___| \_/ /___|
                                     __/ |                      
                                    |___/                       
-{Wh}Developed by MasFha
+{Wh}Developed by MasFha | https://t.me/mdevz
                                    
                                    
     """)
