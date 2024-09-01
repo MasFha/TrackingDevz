@@ -23,7 +23,7 @@ pkg install git
 ```
 Clone URL Git
 ```
-git clone https://github.com/NaomyValen/TrackingDevz.git
+git clone https://github.com/MasFha/TrackingDevz.git
 ```
 Install Pip
 ```
