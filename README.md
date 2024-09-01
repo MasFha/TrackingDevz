@@ -11,15 +11,15 @@ Download Termux FDroid
 
 Update Modul
   ```
-pkg update
+pkg update -y
  ```
  Upgrade Modul
  ```
-pkg upgrade
+pkg upgrade -y
 ````
 Install Modul Git
 ```
-pkg install git
+pkg install git -y
 ```
 Clone URL Git
 ```
@@ -27,7 +27,7 @@ git clone https://github.com/MasFha/TrackingDevz.git
 ```
 Install Pip
 ```
-pkg install python-pip
+pkg install python-pip -y
 ```
 Ubah Direktorinya
 ```
