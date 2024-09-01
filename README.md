@@ -41,5 +41,4 @@ Pilih Filenya
 ````
 python3 TrackingDevz.py
   ```
-  </details>
 
