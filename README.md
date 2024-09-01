@@ -29,13 +29,13 @@ Clone URL Git
 ```
 git clone https://github.com/MasFha/TrackingDevz.git
 ```
-Install Requirements
-```
-pip3 install -r requirements.txt
-```
 Ubah Direktorinya
 ```
 cd  TrackingDevz
+```
+Install Requirements
+```
+pip3 install -r requirements.txt
 ```
 Jalankan Filenya
 ````
