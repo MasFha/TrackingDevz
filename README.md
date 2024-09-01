@@ -1,7 +1,7 @@
 # TrackingDevz (MasFha)
 
 <p align="center">
-  <img src="https://github.com/MasFha/TrackingDevz/blob/main/1739.png" alt="Simple" width="300" height="100"/>
+  <img src="https://github.com/MasFha/TrackingDevz/blob/main/1739.png" alt="Simple" width="100%" height="100"/>
 </p>
 
 Download Termux FDroid 
