@@ -21,21 +21,21 @@ Install Modul Git
 ```
 pkg install git -y
 ```
-Clone URL Git
+Install Requirements
 ```
-git clone https://github.com/MasFha/TrackingDevz.git
+pip3 install -r requirements.txt
 ```
 Install Pip
 ```
 pkg install python-pip -y
 ```
+Clone URL Git
+```
+git clone https://github.com/MasFha/TrackingDevz.git
+```
 Ubah Direktorinya
 ```
 cd  TrackingDevz
-```
-Install Requirements
-```
-pip3 install -r requirements.txt
 ```
 Jalankan Filenya
 ````
