@@ -40,4 +40,3 @@ pip3 install -r requirements.txt
 Pilih Filenya
 ````
 python3 TrackingDevz.py
-
